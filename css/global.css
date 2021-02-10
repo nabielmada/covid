@@ -1,0 +1,36 @@
+
+.bg-content{
+    
+background-color: #fc3f52;
+
+}
+
+.blink_me {
+    animation-name: blinker;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    color:red;
+}
+@keyframes blinker { 
+ 
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+.bg-danger1{
+    background-color: #fc3f52;
+}
+
+.bg-teal1{
+    background-color: #21aa6a;
+}
+
+.bg-purple1{
+    background-color: #6f42c1;
+}
+
+.bg-indigo1{
+    background-color: #6610f2;
+}
